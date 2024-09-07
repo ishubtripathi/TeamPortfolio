@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CodeCrafters Team</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <style>
+    /* Main styling for the homepage */
+    .hero-section {
+      background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://via.placeholder.com/1200x600') center/cover no-repeat;
+      color: white;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    .hero-section h1 {
+      font-size: 4rem;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+    .hero-section p {
+      font-size: 1.5rem;
+    }
+    .hero-section .btn {
+      padding: 10px 30px;
+      font-size: 1.2rem;
+    }
+    .team-intro {
+      padding: 60px 0;
+      text-align: center;
+    }
+    .team-intro h2 {
+      font-size: 3rem;
+      margin-bottom: 20px;
+    }
+    .team-intro p {
+      font-size: 1.2rem;
+      margin-bottom: 40px;
+    }
+    .team-cards .card {
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    .team-cards img {
+      border-radius: 50%;
+      width: 150px;
+      margin: 20px auto 10px;
+    }
+    footer {
+      background-color: #343a40;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">CodeCrafters</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="projects.html">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="member1.html">Our Team</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <div>
+      <h1>Welcome to CodeCrafters</h1>
+      <p>We are a team of talented developers and designers building impactful projects.</p>
+      <a href="projects.html" class="btn btn-primary">Explore Our Projects</a>
+    </div>
+  </section>
+
+  <!-- Team Introduction -->
+  <section class="team-intro">
+    <div class="container">
+      <h2>Meet Our Team</h2>
+      <p>Click on each member's name below to learn more about their roles, skills, and social links.</p>
+
+      <!-- Team Cards -->
+      <div class="row team-cards">
+        <div class="col-md-4">
+          <div class="card text-center">
+            <img src="https://via.placeholder.com/150" alt="Member 1">
+            <div class="card-body">
+              <h5 class="card-title">Member 1</h5>
+              <a href="member1.html" class="btn btn-outline-dark">View Profile</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card text-center">
+            <img src="https://via.placeholder.com/150" alt="Member 2">
+            <div class="card-body">
+              <h5 class="card-title">Member 2</h5>
+              <a href="member2.html" class="btn btn-outline-dark">View Profile</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card text-center">
+            <img src="https://via.placeholder.com/150" alt="Member 3">
+            <div class="card-body">
+              <h5 class="card-title">Member 3</h5>
+              <a href="member3.html" class="btn btn-outline-dark">View Profile</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card text-center">
+            <img src="https://via.placeholder.com/150" alt="Member 3">
+            <div class="card-body">
+              <h5 class="card-title">Member 4</h5>
+              <a href="member3.html" class="btn btn-outline-dark">View Profile</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card text-center">
+            <img src="https://via.placeholder.com/150" alt="Member 3">
+            <div class="card-body">
+              <h5 class="card-title">Member 5</h5>
+              <a href="member3.html" class="btn btn-outline-dark">View Profile</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card text-center">
+            <img src="https://via.placeholder.com/150" alt="Member 3">
+            <div class="card-body">
+              <h5 class="card-title">Member 6</h5>
+              <a href="member3.html" class="btn btn-outline-dark">View Profile</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Repeat for other members -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 CodeCrafters. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
